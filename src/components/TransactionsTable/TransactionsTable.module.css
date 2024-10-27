@@ -1,0 +1,92 @@
+ 
+.mainTable{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgba(248,223,140,255);
+}
+ 
+th {
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+ 
+td {
+    border: 2px solid black;
+}
+
+.serialNoColumn
+{
+    width: 5rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.titleColumn
+{
+    width: 15rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.descriptionColumn{
+    width: 30rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.priceColumn{
+    width: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.categoryColumn
+{
+    width: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+
+.dosColumn {
+    width: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+ 
+
+ .indexingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75rem;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.paginationContainer{
+    display: flex;
+    align-items: center;
+}
+
+.paginationContainer button{
+    background: none; 
+    border: none; 
+    padding: 0 1.5rem; 
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    color: rgb(33, 53, 71, 0.6)
+}

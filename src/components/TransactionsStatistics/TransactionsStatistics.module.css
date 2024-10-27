@@ -1,0 +1,27 @@
+.mainContainerWrapper{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.heading{
+    margin-left: 3rem;
+}
+.mainContainer{
+    width: 20rem;
+    background-color: rgba(248,223,140,255);
+    border-radius: 1.3rem;
+    padding: 1.5rem;
+}
+
+.subContainer{
+    width: 18rem;
+    background-color: rgba(248,223,140,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.subContainer p {
+    margin-bottom: 0.5rem;
+}
